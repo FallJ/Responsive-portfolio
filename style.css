@@ -27,3 +27,7 @@ p {
     line-height: 27px;
     padding: 15px 30px;
 }
+
+.about-section h2 {
+  font-size: 18px;
+}
