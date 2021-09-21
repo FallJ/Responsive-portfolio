@@ -89,6 +89,9 @@ footer .contact-box p {
 .content {
   margin: 30px;
 }
+.nav-link :hover {
+  color: #FF005C;
+}
 
 @media (max-width: 576px) {
   .content-container h1 {
