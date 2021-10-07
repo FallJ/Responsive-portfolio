@@ -1,0 +1,120 @@
+body {
+  background: #FCD2D1;
+}
+p {
+    line-height: 1.7;
+
+}
+
+
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+text-decoration: none;
+color: black;
+font-size: 24px;
+
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: #3445dd;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  background: rgba(231, 224, 224, 0.479);
+}
+
+footer .contact-box{
+  background: rgb(235, 219, 219);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+.project {
+  text-align: center;
+  font-family: "Carattere", cursive;
+  font-size: 45px;
+  font-weight: bolder;
+  margin: 50px 5px;
+}
+
+.hero {
+  text-align: center;
+  margin: 90px 25px;
+  padding: 20px 10px;
+  color: #3ab1c8;
+}
+
+.btn-branding-outline {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content-container h2 {
+  font-size: 18px;
+}
+
+.content-container h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  
+}
+
+.content p{
+  font-size: 14px;
+  
+}
+.content {
+  margin: 30px;
+}
+
+
+@media (max-width: 576px) {
+  .content-container h1 {
+    font-size: 30px;
+    line-height: 1.25;
+  }
+h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+ 
+}
