@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="descritpion" content="How to contcat Julie Fallan,front-end engineer, based in Pennyslvania,US" />
+    <meta
+      name="descritpion"
+      content="How to contcat Julie Fallan,front-end engineer, based in Pennyslvania,US"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -51,7 +54,7 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link"  href="/">Home</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/work.html">My Work</a>
@@ -60,44 +63,57 @@
               <a class="nav-link" href="/about.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/contact.html">Contact Me</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/contact.html"
+                >Contact Me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-<div class="content-container container">
-<div class="content">
-<h1 class="mb-5">Let's get in touch!</h1>
-<h3>Email:</h3>
-<p><a href="mailto:julesfallan@gmail.com">email@gmail.com</a></p>
-<h3>linkedIn:</h3>
-<p><a href="https://www.linkedin.com">
-linkedIn profile</a></p>
-
-</div>
-<footer>
-        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-          <div>
-          <h4>Work Inquiry</h4>
-          <p class="text-muted">Let's work together</p>
+    <div class="content-container container">
+      <div class="content">
+        <h1 class="mb-5">Let's get in touch!</h1>
+        <h3>Email:</h3><div>
+            <input type="button" id="showEmail" value="Connect with me" />
+            <div class="mb-2 mt-3 fs-4" id="emailHolder"></div>
           </div>
+        
+        
+        <h3>linkedIn:</h3>
+        <p><a href="https://www.linkedin.com"> linkedIn profile</a></p>
+      </div>
+      <footer>
+        <div
+          class="
+            contact-box
+            d-flex
+            justify-content-between
+            mb-5
+            d-none d-md-flex
+          "
+        >
           <div>
-          <a href="/contact.html" class="btn btn-branding-outline">Connect with me</a>
-        </div>
-        </div>
-
-        <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:julesfallan@gmail.com" class="email-link">email@gmail.com</a>
-     </div>
+            
+          </div>
+          <div><h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p></div>
+        <div></div>
+        
+          </div>
         <div class="social-links d-flex justify-content-center mb-5">
-       <a href="https://wwww.linkedin.com" target="_blank" title="LinkedIn">
-        <i class="fab fa-linkedin"></i></a>
-     <a href="https://github.com/FallJ" target="_blank" title="GitHub">
-        <i class="fab fa-github"></i></a>
-</div>
-<p class="text-center mt-5">
-           This website was coded by Julie Fallan, and is
+          <a href="https://wwww.linkedin.com" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/FallJ" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This website was coded by Julie Fallan, and is
           <a
             href="https://github.com/FallJ/Responsive-portfolio.git"
             target="_blank"
@@ -106,6 +122,17 @@ linkedIn profile</a></p>
           </a>
         </p>
       </footer>
-</div>
+    </div>
 
- </body>
+    <script>
+      let show = document.querySelector("#showEmail");
+
+      show.addEventListener("click", showEmail);
+
+      function showEmail(event) {
+        let email = document.querySelector("#emailHolder");
+        email.innerHTML = "Email me: Julesfallan@gmail.com";
+      }
+    </script>
+  </body>
+</html>

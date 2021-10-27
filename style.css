@@ -7,7 +7,6 @@ p {
 }
 
 
-
 footer {
   margin: 60px 0;
 }
@@ -21,11 +20,11 @@ font-size: 24px;
 
 footer .social-links a {
   margin: 0 20px;
-  color: #3445dd;
+  color: #99DDCC;
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
-  background: rgba(231, 224, 224, 0.479);
+  background: #6B4F4F;
 }
 
 footer .contact-box{
@@ -66,8 +65,8 @@ footer .contact-box p {
 }
 
 .content-container h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 45px;
+  line-height: 60px;
 }
 
 .content-container h2 {
@@ -87,6 +86,7 @@ footer .contact-box p {
 .content {
   margin: 30px;
 }
+
 
 
 @media (max-width: 576px) {
