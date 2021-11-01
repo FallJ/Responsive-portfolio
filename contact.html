@@ -77,14 +77,13 @@
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email:</h3><div>
-            <input type="button" id="showEmail" value="Connect with me" />
-            <div class="mb-2 mt-3 fs-4" id="emailHolder"></div>
-          </div>
-        
-        
+        <h3>Email:</h3>
+        <div>
+          <a href="mailto:julie.fallan1@gmail.com" class="link-social">Julie.Fallan1@gmail.com</a>
+        </div>
+
         <h3>linkedIn:</h3>
-        <p><a href="https://www.linkedin.com"> linkedIn profile</a></p>
+        <p><a href="https://www.linkedin.com/in/jules-fallan/" target="_blank" rel="noreferrer" class="link-social" > Jules-Fallan</a></p>
       </div>
       <footer>
         <div
@@ -97,15 +96,20 @@
           "
         >
           <div>
-            
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
           </div>
-          <div><h4>Work Inquiry</h4>
-            <p class="text-muted">Let's work together</p></div>
-        <div></div>
-        
+          <div>
+            <input type="button" id="showEmail" value="Connect with me" />
+            <div class="mb-2 mt-3 fs-4" id="emailHolder"></div>
           </div>
+        </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://wwww.linkedin.com" target="_blank" title="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/jules-fallan/"
+            target="_blank"
+            title="LinkedIn"
+          >
             <i class="fab fa-linkedin"></i
           ></a>
           <a href="https://github.com/FallJ" target="_blank" title="GitHub">
@@ -131,7 +135,7 @@
 
       function showEmail(event) {
         let email = document.querySelector("#emailHolder");
-        email.innerHTML = "Email me: Julesfallan@gmail.com";
+        email.innerHTML = "Email me: Julie.Fallan1@gmail.com";
       }
     </script>
   </body>

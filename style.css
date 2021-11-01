@@ -1,34 +1,45 @@
 body {
-  background: #FCD2D1;
+  background-image: linear-gradient(
+    to right top,
+    #f2b8d9,
+    #eac2e5,
+    #e2cced,
+    #ddd5f1,
+    #dcddf2,
+    #dcddf2,
+    #dbdcf3,
+    #dbdcf3,
+    #ddd2f2,
+    #e4c7ed,
+    #eebbe3,
+    #f9afd3
+  );
 }
 p {
-    line-height: 1.7;
-
+  line-height: 1.7;
 }
-
 
 footer {
   margin: 60px 0;
 }
 
-footer .email-link {
-text-decoration: none;
-color: black;
-font-size: 24px;
-
-}
-
 footer .social-links a {
   margin: 0 20px;
-  color: #99DDCC;
+  color: #99ddcc;
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
-  background: #6B4F4F;
+  background: #6b4f4f;
+  transition: ease-in-out 200ms;
 }
 
-footer .contact-box{
-  background: rgb(235, 219, 219);
+footer .social-links a:hover {
+  background: #99ddcc;
+  color: #6b4f4f;
+}
+
+footer .contact-box {
+  background: #D2D0FE;
   padding: 30px;
   border-radius: 10px;
 }
@@ -53,11 +64,11 @@ footer .contact-box p {
 }
 
 .btn-branding-outline {
-    border: 1px solid black;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .content-container {
@@ -76,25 +87,71 @@ footer .contact-box p {
 .content-container h3 {
   font-size: 24px;
   line-height: 1.5;
-  
 }
 
-.content p{
+.content p {
   font-size: 14px;
-  
 }
 .content {
   margin: 30px;
 }
 
+.content-container p a {
+  text-decoration: none;
+  color: #290FBA;
+}
 
+.content-container p a:hover {
+  color: #6b4f4f;
+}
+
+.content-container .link-social {
+  text-decoration: none;
+  color: #368B85;
+  transition: ease-in-out 200ms;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.content-container .link-social:hover {
+  color: #341677;
+}
+
+.content-container .alink {
+  text-decoration: none;
+  color: #864879;
+  transition: ease-in-out 200ms;
+}
+
+.content-container .alink:hover {
+  color: #9c19e0;
+  font-style: italic;
+}
+
+.content-container .pic {
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.content-container .certificates a {
+text-decoration: none;
+color: #864879;
+transition: ease-in 200ms;
+font-weight: bold;
+}
+
+.content-container .certificates a:hover {
+  color: #9c19e0;
+  font-style: italic;
+}
 
 @media (max-width: 576px) {
   .content-container h1 {
     font-size: 30px;
     line-height: 1.25;
   }
-h1 {
+  h1 {
     font-size: 44px;
     line-height: 1.5;
   }
@@ -116,5 +173,11 @@ h1 {
     padding: 0;
     text-align: center;
   }
- 
+
+  .content-container .pic {
+    display: block;
+    max-width: 85px;
+    max-height: 85px;
+    border-radius: 4px;
+  }
 }
