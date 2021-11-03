@@ -146,6 +146,10 @@ font-weight: bold;
   font-style: italic;
 }
 
+.free img {
+  max-height: 75%;
+}
+
 @media (max-width: 576px) {
   .content-container h1 {
     font-size: 30px;
