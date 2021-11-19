@@ -139,6 +139,7 @@ text-decoration: none;
 color: #864879;
 transition: ease-in 200ms;
 font-weight: bold;
+
 }
 
 .content-container .certificates a:hover {
@@ -147,7 +148,7 @@ font-weight: bold;
 }
 
 .free img {
-  max-height: 75%;
+  max-height: 85%;
 }
 
 @media (max-width: 576px) {
